@@ -20,7 +20,7 @@ void setup() {
   size(1024,768,JAVA2D);
   detectCameras();
   //video = new Capture(this,cam_width,cam_height,cameras[18]);
-  video = new Capture(this,cam_width,cam_height);
+  video = new Capture(this,cam_width,cam_height,cameras[22]);
   video.start();
   for (int i=0; i< rows;i++){
     for (int j=0; j< cols;j++){
